@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
         this.radius = 0;
         this.oriRad = radius;
         this.i = 20;
-        this.maxSize = 30;
+        this.maxSize = 5;
         this.minSize = 20;
         this.v = 5;
         this.dist = 0;
@@ -148,6 +148,7 @@ window.addEventListener('load', () => {
     c.addEventListener("mousemove", e => {
       m.x = e.x;
       m.y = e.y;
+      m.z = e.z;
     });
     c.addEventListener("mouseenter", () => {
       m.e = true;

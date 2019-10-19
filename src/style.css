@@ -6,5 +6,18 @@ canvas {
 }
 
 body{
-    background-color:rgba(167, 129, 28, 0.28) ;
+    background-color:rgba(255, 255, 255, 0.28) ;
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+img {
+    width: 60%;
+    position: absolute;
+    z-index: -2;
+    left: 25%;
 }
